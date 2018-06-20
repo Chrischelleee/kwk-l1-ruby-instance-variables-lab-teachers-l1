@@ -1,6 +1,9 @@
 # dog.rb
 class Dog
-  def this_dogs_name=(name)
+  def name=(name)
     @name = name
+  end
+  def name
+    @name
   end
 end
